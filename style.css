@@ -1,0 +1,102 @@
+.clearfix {
+  clear: both;
+}
+
+header {
+  position: relative;
+  display: block;
+}
+
+nav {
+  position: sticky;
+  display: block;
+  top: 0;
+  background-color: #000;
+  /* color: #fff; */
+  padding: 1rem;
+  z-index: 1;
+}
+
+nav a {
+  color: #fff;
+  text-transform: lowercase;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: #00ccff;
+}
+
+#hero {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#hero h2 {
+  color: #fff;
+}
+
+main {
+  position: relative;
+  display: block;
+  width: 70%;
+  float: left;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+main h3 {
+  margin-top: 0;
+}
+
+.left-img {
+  width: 30%;
+  float: left;
+}
+
+.right-img {
+  width: 30%;
+  float: right;
+}
+
+.left-copy {
+  width: 70%;
+  float: left;
+}
+.right-copy {
+  width: 70%;
+  float: right;
+}
+
+aside {
+  position: relative;
+  display: block;
+  width: 30%;
+  float: right;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+aside .post {
+  margin-bottom: 1rem;
+}
+
+footer {
+  position: relative;
+  display: block;
+  bottom: 0;
+  background-color: #fff;
+  border-top: 1px solid #000;
+  color: #000;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
